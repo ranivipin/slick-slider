@@ -114,7 +114,6 @@ p {
     letter-spacing: 0em;
     text-align: left;
     margin-left: 12px;
-
 }
 
 .text2 {
@@ -126,10 +125,11 @@ p {
     letter-spacing: 0em;
     text-align: left;
     color: #7B7B7B;
-
-
 }
 
+.border {
+    padding: 11px 28px;
+}
 
 .text2:hover {
     border: 2px solid orangered;
@@ -138,8 +138,6 @@ p {
     padding: 11px 14px;
     color: #FFF;
 }
-
-
 
 .designer1 {
 
@@ -173,7 +171,6 @@ p {
     text-align: center;
     color: #FF5300;
 }
-
 
 .develop {
 
@@ -227,18 +224,20 @@ p {
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
+    padding-top: 20px;
 }
 
 .text1:hover {
     color: red;
 }
-.info{
-    font-family: Work Sans;
-        font-size: 10px;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #373737;
+
+.info {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #373737;
 }
 
 .button {
@@ -250,7 +249,6 @@ p {
 .space {
     padding: 70px 20px;
 }
-
 
 .header {
     font-family: 'Poppins', sans-serif;
@@ -305,7 +303,6 @@ p {
     letter-spacing: 0em;
     text-align: left;
     color: #EFEFEF;
-    ;
 }
 
 .bg-color {
@@ -345,7 +342,6 @@ p {
 }
 
 .set {
-
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -379,10 +375,9 @@ p {
     left: -100%;
     z-index: -1;
     padding: 25px;
-    
 }
 
-.hover-out:hover .card5{
+.hover-out:hover .card5 {
     background-color: #FF5300bf;
     margin-top: 50px;
     position: absolute;
@@ -422,9 +417,11 @@ p {
 .ml-5 {
     margin-left: 5px;
 }
-.color-white{
+
+.color-white {
     color: #FFF;
 }
+
 input[type="text"][placeholder="Enter your email"] {
     border: none;
     margin-left: 8px;
@@ -445,7 +442,8 @@ button {
 
     white-space: nowrap;
 }
-.now{
+
+.now {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
@@ -457,20 +455,20 @@ button {
     padding: 11px 28px;
     border: none;
     color: #FFF;
-    
 
 }
-.contact{
+.contact {
 
-        font-family: Poppins;
-        font-size: 25px;
-        font-weight: 600;
-        line-height: 38px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #FF5300;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF5300;
 }
-.footer-para{
+
+.footer-para {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
@@ -479,18 +477,21 @@ button {
     text-align: left;
 
 }
-.circle{
-background-color: #FFF;
-height: 50px;
-width: 50px;
-border-radius: 50px;
+
+.circle {
+    background-color: #FFF;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
 }
-.circle2{
-background-color:#FF5300;
-height: 58px;
-width: 58px;
-border-radius: 50px;
+
+.circle2 {
+    background-color: #FF5300;
+    height: 58px;
+    width: 58px;
+    border-radius: 50px;
 }
+
 
 @media (max-width:992px) {
     label[for="menubar"] {
@@ -510,7 +511,6 @@ border-radius: 50px;
         height: 4px;
         background-color: rgb(22, 19, 3);
         border-radius: 3px;
-
     }
 
     ul.mobile-view {
@@ -520,6 +520,7 @@ border-radius: 50px;
         flex-direction: column;
         position: fixed;
         top: 0;
+        z-index: 3;
         left: -100%;
         width: 100%;
         height: 100%;
@@ -530,13 +531,10 @@ border-radius: 50px;
     input[type="checkbox"][id=menubar]:checked+ul.mobile-view {
         left: 0;
     }
-
-
 }
+
 @media (max-width:992px) {
-.border-right{
-    border-right:none;
+    .border-right {
+        border-right: none;
+    }
 }
-   
-}
-  
